@@ -17,3 +17,17 @@ SELECT
 FROM bank_churners
 GROUP BY Income_Category, Attrition_Flag
 ORDER BY Income_Category;
+
+-- 3. Churn rate by income category
+SELECT
+    Income_Category,
+    COUNT(*) AS total_customers,
+    SUM(CASE WHEN Attrition_Flag = 'Attrited Customer' THEN 1 ELSE 0 END) AS churned_customers,
+    ROUND(
+        SUM(CASE WHEN Attrition_Flag = 'Attrited Customer' THEN 1 ELSE 0 END) * 100.0 
+        / COUNT(*),
+        2
+    ) AS churn_rate_pct
+FROM bank_churners
+GROUP BY Income_Category
+ORDER BY churn_rate_pct DESC;
