@@ -15,5 +15,11 @@ Anonymized dataset of 10,000+ credit card customers including demographics, enga
 - Lower income segments show relatively higher attrition.
 - Engagement frequency is a strong indicator of customer retention.
 
+## Visual Insight: Inactivity vs Customer Attrition
+
+![Average Inactivity by Customer Status](assets/avg_inactivity_by_status.png)
+
+Attrited customers exhibit higher average months of inactivity compared to existing customers, indicating that disengagement is a strong early warning signal for churn.
+
 ## Use Case
 This analysis mirrors real-world credit card portfolio monitoring and can inform targeted retention and engagement strategies.
