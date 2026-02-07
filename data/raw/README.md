@@ -1,2 +1,2 @@
-This folder contains raw and cleaned customer-level credit card data used for attrition analysis.
-
+This folder contains the raw dataset used for analysis.
+Source: BankChurners credit card customer dataset.
