@@ -17,7 +17,7 @@ Anonymized dataset of 10,000+ credit card customers including demographics, enga
 
 ## Visual Insight: Inactivity vs Customer Attrition
 
-![Average Inactivity by Customer Status](assets/avg_inactivity_by_status.png)
+![Average Inactivity by Customer Status](data/assets/avg_inactivity_by_status.png)
 
 Attrited customers exhibit higher average months of inactivity compared to existing customers, indicating that disengagement is a strong early warning signal for churn.
 
